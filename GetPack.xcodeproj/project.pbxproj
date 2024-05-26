@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5484DC9A2C001F8B0016242C /* GetPackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DC992C001F8B0016242C /* GetPackApp.swift */; };
+		5484DC9C2C001F8B0016242C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DC9B2C001F8B0016242C /* SplashScreen.swift */; };
+		5484DC9E2C001F8C0016242C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5484DC9D2C001F8C0016242C /* Assets.xcassets */; };
+		5484DCA22C001F8C0016242C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCA12C001F8C0016242C /* Preview Assets.xcassets */; };
+		5484DCAA2C0020820016242C /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DCA92C0020820016242C /* WorkoutList.swift */; };
+		5484DCCF2C0020E40016242C /* Abdominal 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCAB2C0020E30016242C /* Abdominal 2.m4a */; };
+		5484DCD02C0020E40016242C /* Abdominal Crunches.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCAC2C0020E30016242C /* Abdominal Crunches.m4a */; };
+		5484DCD12C0020E40016242C /* Bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCAD2C0020E30016242C /* Bell.wav */; };
+		5484DCD22C0020E40016242C /* Cobra stretch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCAE2C0020E30016242C /* Cobra stretch.m4a */; };
+		5484DCD32C0020E40016242C /* Finish.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCAF2C0020E30016242C /* Finish.m4a */; };
+		5484DCD42C0020E40016242C /* Heel Touch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB02C0020E30016242C /* Heel Touch.m4a */; };
+		5484DCD52C0020E40016242C /* Hell Touch 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB12C0020E30016242C /* Hell Touch 2.m4a */; };
+		5484DCD62C0020E40016242C /* Jumping Jacks play 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB22C0020E30016242C /* Jumping Jacks play 2.m4a */; };
+		5484DCD72C0020E40016242C /* Leg Raises 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB32C0020E30016242C /* Leg Raises 2.m4a */; };
+		5484DCD82C0020E40016242C /* Leg Raises.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB42C0020E30016242C /* Leg Raises.m4a */; };
+		5484DCD92C0020E40016242C /* Mountain 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB52C0020E30016242C /* Mountain 2.m4a */; };
+		5484DCDA2C0020E40016242C /* Mountain Climber.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB62C0020E30016242C /* Mountain Climber.m4a */; };
+		5484DCDB2C0020E40016242C /* Plank 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB72C0020E30016242C /* Plank 2.m4a */; };
+		5484DCDC2C0020E40016242C /* Plank.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB82C0020E30016242C /* Plank.m4a */; };
+		5484DCDD2C0020E40016242C /* Ready Jumping Jacks 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCB92C0020E30016242C /* Ready Jumping Jacks 2.m4a */; };
+		5484DCDE2C0020E40016242C /* Rest Abdominal 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCBA2C0020E30016242C /* Rest Abdominal 2.m4a */; };
+		5484DCDF2C0020E40016242C /* Rest Abdominal Crunches.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCBB2C0020E30016242C /* Rest Abdominal Crunches.m4a */; };
+		5484DCE02C0020E40016242C /* Rest Cobra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCBC2C0020E30016242C /* Rest Cobra.m4a */; };
+		5484DCE12C0020E40016242C /* Rest Heel 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCBD2C0020E30016242C /* Rest Heel 2.m4a */; };
+		5484DCE22C0020E40016242C /* Rest Heel Touch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCBE2C0020E30016242C /* Rest Heel Touch.m4a */; };
+		5484DCE32C0020E40016242C /* Rest Leg 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCBF2C0020E30016242C /* Rest Leg 2.m4a */; };
+		5484DCE42C0020E40016242C /* Rest Leg Raises.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC02C0020E30016242C /* Rest Leg Raises.m4a */; };
+		5484DCE52C0020E40016242C /* Rest Mountain 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC12C0020E30016242C /* Rest Mountain 2.m4a */; };
+		5484DCE62C0020E40016242C /* Rest Mountain Climber.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC22C0020E30016242C /* Rest Mountain Climber.m4a */; };
+		5484DCE72C0020E40016242C /* Rest Plank 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC32C0020E30016242C /* Rest Plank 2.m4a */; };
+		5484DCE82C0020E40016242C /* Rest Plank.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC42C0020E30016242C /* Rest Plank.m4a */; };
+		5484DCE92C0020E40016242C /* Rest Russian 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC52C0020E30016242C /* Rest Russian 2.m4a */; };
+		5484DCEA2C0020E40016242C /* Rest Russian Twist.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC62C0020E30016242C /* Rest Russian Twist.m4a */; };
+		5484DCEB2C0020E40016242C /* Rest Spine Left.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC72C0020E30016242C /* Rest Spine Left.m4a */; };
+		5484DCEC2C0020E40016242C /* Rest Spine Right.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC82C0020E30016242C /* Rest Spine Right.m4a */; };
+		5484DCED2C0020E40016242C /* Russian 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCC92C0020E30016242C /* Russian 2.m4a */; };
+		5484DCEE2C0020E40016242C /* Russian Twist.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCCA2C0020E30016242C /* Russian Twist.m4a */; };
+		5484DCEF2C0020E40016242C /* Spine Left.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCCB2C0020E30016242C /* Spine Left.m4a */; };
+		5484DCF02C0020E40016242C /* Spine Right.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCCC2C0020E30016242C /* Spine Right.m4a */; };
+		5484DCF12C0020E40016242C /* Splash Intro 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCCD2C0020E30016242C /* Splash Intro 2.m4a */; };
+		5484DCFD2C0020F50016242C /* Abdominal Crunch Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCF22C0020F50016242C /* Abdominal Crunch Video.mov */; };
+		5484DCFF2C0020F50016242C /* Cobra Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCF42C0020F50016242C /* Cobra Video.mov */; };
+		5484DD012C0020F50016242C /* Jumping Jack Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCF62C0020F50016242C /* Jumping Jack Video.mov */; };
+		5484DD022C0020F50016242C /* Leg Raises Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCF72C0020F50016242C /* Leg Raises Video.mov */; };
+		5484DD032C0020F50016242C /* Plank Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCF82C0020F50016242C /* Plank Video.mov */; };
+		5484DD052C0020F50016242C /* Spine L Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCFA2C0020F50016242C /* Spine L Video.mov */; };
+		5484DD062C0020F50016242C /* Spine R Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5484DCFB2C0020F50016242C /* Spine R Video.mov */; };
+		5484DD1C2C00249F0016242C /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD1B2C00249F0016242C /* CardList.swift */; };
+		5484DD1E2C00256D0016242C /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD1D2C00256D0016242C /* DescriptionView.swift */; };
+		5484DD212C0026260016242C /* CustomVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD202C0026260016242C /* CustomVideoPlayerView.swift */; };
+		5484DD242C0028010016242C /* PrepareWO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD232C0028010016242C /* PrepareWO.swift */; };
+		5484DD262C0028550016242C /* Jumping1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD252C0028550016242C /* Jumping1.swift */; };
+		5484DD282C002DCD0016242C /* CardOtot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD272C002DCD0016242C /* CardOtot.swift */; };
+		5484DD2B2C007B840016242C /* ResumeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD2A2C007B840016242C /* ResumeButton.swift */; };
+		5484DD2D2C007CC90016242C /* WorkoutFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD2C2C007CC90016242C /* WorkoutFile.swift */; };
+		5484DD2F2C0083DC0016242C /* JumpingResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD2E2C0083DC0016242C /* JumpingResume.swift */; };
+		5484DD332C008F8D0016242C /* RestAbdominal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD322C008F8D0016242C /* RestAbdominal.swift */; };
+		5484DD362C0090F90016242C /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484DD352C0090F90016242C /* TestingView.swift */; };
+		5484DD382C0092C60016242C /* Timer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5484DD372C0092C50016242C /* Timer.m4a */; };
+		5497B63A2C015D27001AB8ED /* RestartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6392C015D27001AB8ED /* RestartButton.swift */; };
+		5497B63C2C0178DE001AB8ED /* Russian Twist Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5497B63B2C0178DE001AB8ED /* Russian Twist Video.mov */; };
+		5497B63E2C017BB7001AB8ED /* Heel Touch Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5497B63D2C017BB7001AB8ED /* Heel Touch Video.mov */; };
+		5497B6422C018114001AB8ED /* Climbing Mountain Video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5497B6412C018114001AB8ED /* Climbing Mountain Video.mov */; };
+		5497B6462C01BFD4001AB8ED /* Abdominal1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6452C01BFD4001AB8ED /* Abdominal1.swift */; };
+		5497B6482C01C5AF001AB8ED /* RestRussian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6472C01C5AF001AB8ED /* RestRussian.swift */; };
+		5497B64A2C01D1FB001AB8ED /* SkipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6492C01D1FB001AB8ED /* SkipButton.swift */; };
+		5497B64C2C01D265001AB8ED /* CloseButtonRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B64B2C01D265001AB8ED /* CloseButtonRest.swift */; };
+		5497B64E2C01D2E3001AB8ED /* CloseButtonWO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B64D2C01D2E3001AB8ED /* CloseButtonWO.swift */; };
+		5497B6502C01DB4E001AB8ED /* Russian1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B64F2C01DB4E001AB8ED /* Russian1.swift */; };
+		5497B6522C01DD0F001AB8ED /* RestMountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6512C01DD0F001AB8ED /* RestMountain.swift */; };
+		5497B6562C01E1CF001AB8ED /* MountainClimb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6552C01E1CF001AB8ED /* MountainClimb.swift */; };
+		5497B6582C01EF20001AB8ED /* RestHeel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6572C01EF20001AB8ED /* RestHeel.swift */; };
+		5497B65A2C01F15A001AB8ED /* LegRaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6592C01F15A001AB8ED /* LegRaises.swift */; };
+		5497B65E2C01F3C8001AB8ED /* HeelT1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B65D2C01F3C8001AB8ED /* HeelT1.swift */; };
+		5497B6602C01F775001AB8ED /* RestLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B65F2C01F775001AB8ED /* RestLeg.swift */; };
+		5497B6622C01F99B001AB8ED /* RestPlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6612C01F99B001AB8ED /* RestPlank.swift */; };
+		5497B6642C01FA14001AB8ED /* Plank1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6632C01FA14001AB8ED /* Plank1.swift */; };
+		5497B6662C020CD5001AB8ED /* RestCobra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6652C020CD5001AB8ED /* RestCobra.swift */; };
+		5497B6682C0210AB001AB8ED /* CobraStretch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6672C0210AB001AB8ED /* CobraStretch.swift */; };
+		5497B66C2C021232001AB8ED /* RestSpineL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B66B2C021232001AB8ED /* RestSpineL.swift */; };
+		5497B66E2C021250001AB8ED /* SpineLumbarL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B66D2C021250001AB8ED /* SpineLumbarL.swift */; };
+		5497B6702C021265001AB8ED /* RestSpineR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B66F2C021265001AB8ED /* RestSpineR.swift */; };
+		5497B6722C021274001AB8ED /* SpineLumbarR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6712C021274001AB8ED /* SpineLumbarR.swift */; };
+		5497B6762C021975001AB8ED /* Finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6752C021975001AB8ED /* Finish.swift */; };
+		5497B6782C0225B0001AB8ED /* FinishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6772C0225B0001AB8ED /* FinishButton.swift */; };
+		5497B67A2C0225FB001AB8ED /* PreviousButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6792C0225FB001AB8ED /* PreviousButton.swift */; };
+		5497B67C2C022757001AB8ED /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B67B2C022757001AB8ED /* NextButton.swift */; };
+		5497B6802C022B7F001AB8ED /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B67F2C022B7F001AB8ED /* AddButton.swift */; };
+		5497B6822C02B8E7001AB8ED /* AbdominalResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6812C02B8E7001AB8ED /* AbdominalResume.swift */; };
+		5497B6842C02C35F001AB8ED /* RussianResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6832C02C35F001AB8ED /* RussianResume.swift */; };
+		5497B6862C02D420001AB8ED /* TextResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6852C02D420001AB8ED /* TextResume.swift */; };
+		5497B6882C02D561001AB8ED /* MountainResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6872C02D561001AB8ED /* MountainResume.swift */; };
+		5497B68A2C02D5E4001AB8ED /* HeelResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6892C02D5E3001AB8ED /* HeelResume.swift */; };
+		5497B68C2C02D68A001AB8ED /* LegResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B68B2C02D68A001AB8ED /* LegResume.swift */; };
+		5497B68E2C02D6B3001AB8ED /* PlankResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B68D2C02D6B3001AB8ED /* PlankResume.swift */; };
+		5497B6902C02D6DB001AB8ED /* CobraResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B68F2C02D6DB001AB8ED /* CobraResume.swift */; };
+		5497B6922C02D6FA001AB8ED /* SpineLResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6912C02D6FA001AB8ED /* SpineLResume.swift */; };
+		5497B6942C02D723001AB8ED /* SpineRResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5497B6932C02D723001AB8ED /* SpineRResume.swift */; };
+		5497B6962C02E014001AB8ED /* finishSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5497B6952C02E014001AB8ED /* finishSound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5484DC962C001F8B0016242C /* GetPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5484DC992C001F8B0016242C /* GetPackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPackApp.swift; sourceTree = "<group>"; };
+		5484DC9B2C001F8B0016242C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5484DC9D2C001F8C0016242C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5484DC9F2C001F8C0016242C /* GetPack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetPack.entitlements; sourceTree = "<group>"; };
+		5484DCA12C001F8C0016242C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5484DCA92C0020820016242C /* WorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		5484DCAB2C0020E30016242C /* Abdominal 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Abdominal 2.m4a"; sourceTree = "<group>"; };
+		5484DCAC2C0020E30016242C /* Abdominal Crunches.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Abdominal Crunches.m4a"; sourceTree = "<group>"; };
+		5484DCAD2C0020E30016242C /* Bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bell.wav; sourceTree = "<group>"; };
+		5484DCAE2C0020E30016242C /* Cobra stretch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cobra stretch.m4a"; sourceTree = "<group>"; };
+		5484DCAF2C0020E30016242C /* Finish.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Finish.m4a; sourceTree = "<group>"; };
+		5484DCB02C0020E30016242C /* Heel Touch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heel Touch.m4a"; sourceTree = "<group>"; };
+		5484DCB12C0020E30016242C /* Hell Touch 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hell Touch 2.m4a"; sourceTree = "<group>"; };
+		5484DCB22C0020E30016242C /* Jumping Jacks play 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jumping Jacks play 2.m4a"; sourceTree = "<group>"; };
+		5484DCB32C0020E30016242C /* Leg Raises 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Leg Raises 2.m4a"; sourceTree = "<group>"; };
+		5484DCB42C0020E30016242C /* Leg Raises.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Leg Raises.m4a"; sourceTree = "<group>"; };
+		5484DCB52C0020E30016242C /* Mountain 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mountain 2.m4a"; sourceTree = "<group>"; };
+		5484DCB62C0020E30016242C /* Mountain Climber.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mountain Climber.m4a"; sourceTree = "<group>"; };
+		5484DCB72C0020E30016242C /* Plank 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Plank 2.m4a"; sourceTree = "<group>"; };
+		5484DCB82C0020E30016242C /* Plank.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plank.m4a; sourceTree = "<group>"; };
+		5484DCB92C0020E30016242C /* Ready Jumping Jacks 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ready Jumping Jacks 2.m4a"; sourceTree = "<group>"; };
+		5484DCBA2C0020E30016242C /* Rest Abdominal 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Abdominal 2.m4a"; sourceTree = "<group>"; };
+		5484DCBB2C0020E30016242C /* Rest Abdominal Crunches.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Abdominal Crunches.m4a"; sourceTree = "<group>"; };
+		5484DCBC2C0020E30016242C /* Rest Cobra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Cobra.m4a"; sourceTree = "<group>"; };
+		5484DCBD2C0020E30016242C /* Rest Heel 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Heel 2.m4a"; sourceTree = "<group>"; };
+		5484DCBE2C0020E30016242C /* Rest Heel Touch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Heel Touch.m4a"; sourceTree = "<group>"; };
+		5484DCBF2C0020E30016242C /* Rest Leg 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Leg 2.m4a"; sourceTree = "<group>"; };
+		5484DCC02C0020E30016242C /* Rest Leg Raises.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Leg Raises.m4a"; sourceTree = "<group>"; };
+		5484DCC12C0020E30016242C /* Rest Mountain 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Mountain 2.m4a"; sourceTree = "<group>"; };
+		5484DCC22C0020E30016242C /* Rest Mountain Climber.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Mountain Climber.m4a"; sourceTree = "<group>"; };
+		5484DCC32C0020E30016242C /* Rest Plank 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Plank 2.m4a"; sourceTree = "<group>"; };
+		5484DCC42C0020E30016242C /* Rest Plank.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Plank.m4a"; sourceTree = "<group>"; };
+		5484DCC52C0020E30016242C /* Rest Russian 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Russian 2.m4a"; sourceTree = "<group>"; };
+		5484DCC62C0020E30016242C /* Rest Russian Twist.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Russian Twist.m4a"; sourceTree = "<group>"; };
+		5484DCC72C0020E30016242C /* Rest Spine Left.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Spine Left.m4a"; sourceTree = "<group>"; };
+		5484DCC82C0020E30016242C /* Rest Spine Right.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rest Spine Right.m4a"; sourceTree = "<group>"; };
+		5484DCC92C0020E30016242C /* Russian 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Russian 2.m4a"; sourceTree = "<group>"; };
+		5484DCCA2C0020E30016242C /* Russian Twist.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Russian Twist.m4a"; sourceTree = "<group>"; };
+		5484DCCB2C0020E30016242C /* Spine Left.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spine Left.m4a"; sourceTree = "<group>"; };
+		5484DCCC2C0020E30016242C /* Spine Right.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spine Right.m4a"; sourceTree = "<group>"; };
+		5484DCCD2C0020E30016242C /* Splash Intro 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Splash Intro 2.m4a"; sourceTree = "<group>"; };
+		5484DCF22C0020F50016242C /* Abdominal Crunch Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Abdominal Crunch Video.mov"; sourceTree = "<group>"; };
+		5484DCF42C0020F50016242C /* Cobra Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Cobra Video.mov"; sourceTree = "<group>"; };
+		5484DCF62C0020F50016242C /* Jumping Jack Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Jumping Jack Video.mov"; sourceTree = "<group>"; };
+		5484DCF72C0020F50016242C /* Leg Raises Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Leg Raises Video.mov"; sourceTree = "<group>"; };
+		5484DCF82C0020F50016242C /* Plank Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Plank Video.mov"; sourceTree = "<group>"; };
+		5484DCFA2C0020F50016242C /* Spine L Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Spine L Video.mov"; sourceTree = "<group>"; };
+		5484DCFB2C0020F50016242C /* Spine R Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Spine R Video.mov"; sourceTree = "<group>"; };
+		5484DD1B2C00249F0016242C /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		5484DD1D2C00256D0016242C /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		5484DD202C0026260016242C /* CustomVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayerView.swift; sourceTree = "<group>"; };
+		5484DD232C0028010016242C /* PrepareWO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareWO.swift; sourceTree = "<group>"; };
+		5484DD252C0028550016242C /* Jumping1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping1.swift; sourceTree = "<group>"; };
+		5484DD272C002DCD0016242C /* CardOtot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOtot.swift; sourceTree = "<group>"; };
+		5484DD2A2C007B840016242C /* ResumeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeButton.swift; sourceTree = "<group>"; };
+		5484DD2C2C007CC90016242C /* WorkoutFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFile.swift; sourceTree = "<group>"; };
+		5484DD2E2C0083DC0016242C /* JumpingResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingResume.swift; sourceTree = "<group>"; };
+		5484DD322C008F8D0016242C /* RestAbdominal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAbdominal.swift; sourceTree = "<group>"; };
+		5484DD352C0090F90016242C /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		5484DD372C0092C50016242C /* Timer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Timer.m4a; sourceTree = "<group>"; };
+		5497B6392C015D27001AB8ED /* RestartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartButton.swift; sourceTree = "<group>"; };
+		5497B63B2C0178DE001AB8ED /* Russian Twist Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Russian Twist Video.mov"; path = "../../../Video Asset/Russian Twist Video.mov"; sourceTree = "<group>"; };
+		5497B63D2C017BB7001AB8ED /* Heel Touch Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Heel Touch Video.mov"; sourceTree = "<group>"; };
+		5497B6412C018114001AB8ED /* Climbing Mountain Video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Climbing Mountain Video.mov"; sourceTree = "<group>"; };
+		5497B6452C01BFD4001AB8ED /* Abdominal1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abdominal1.swift; sourceTree = "<group>"; };
+		5497B6472C01C5AF001AB8ED /* RestRussian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestRussian.swift; sourceTree = "<group>"; };
+		5497B6492C01D1FB001AB8ED /* SkipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipButton.swift; sourceTree = "<group>"; };
+		5497B64B2C01D265001AB8ED /* CloseButtonRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonRest.swift; sourceTree = "<group>"; };
+		5497B64D2C01D2E3001AB8ED /* CloseButtonWO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonWO.swift; sourceTree = "<group>"; };
+		5497B64F2C01DB4E001AB8ED /* Russian1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Russian1.swift; sourceTree = "<group>"; };
+		5497B6512C01DD0F001AB8ED /* RestMountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestMountain.swift; sourceTree = "<group>"; };
+		5497B6552C01E1CF001AB8ED /* MountainClimb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainClimb.swift; sourceTree = "<group>"; };
+		5497B6572C01EF20001AB8ED /* RestHeel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestHeel.swift; sourceTree = "<group>"; };
+		5497B6592C01F15A001AB8ED /* LegRaises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegRaises.swift; sourceTree = "<group>"; };
+		5497B65D2C01F3C8001AB8ED /* HeelT1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeelT1.swift; sourceTree = "<group>"; };
+		5497B65F2C01F775001AB8ED /* RestLeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestLeg.swift; sourceTree = "<group>"; };
+		5497B6612C01F99B001AB8ED /* RestPlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPlank.swift; sourceTree = "<group>"; };
+		5497B6632C01FA14001AB8ED /* Plank1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plank1.swift; sourceTree = "<group>"; };
+		5497B6652C020CD5001AB8ED /* RestCobra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestCobra.swift; sourceTree = "<group>"; };
+		5497B6672C0210AB001AB8ED /* CobraStretch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraStretch.swift; sourceTree = "<group>"; };
+		5497B66B2C021232001AB8ED /* RestSpineL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestSpineL.swift; sourceTree = "<group>"; };
+		5497B66D2C021250001AB8ED /* SpineLumbarL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineLumbarL.swift; sourceTree = "<group>"; };
+		5497B66F2C021265001AB8ED /* RestSpineR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestSpineR.swift; sourceTree = "<group>"; };
+		5497B6712C021274001AB8ED /* SpineLumbarR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineLumbarR.swift; sourceTree = "<group>"; };
+		5497B6752C021975001AB8ED /* Finish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finish.swift; sourceTree = "<group>"; };
+		5497B6772C0225B0001AB8ED /* FinishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishButton.swift; sourceTree = "<group>"; };
+		5497B6792C0225FB001AB8ED /* PreviousButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousButton.swift; sourceTree = "<group>"; };
+		5497B67B2C022757001AB8ED /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		5497B67F2C022B7F001AB8ED /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		5497B6812C02B8E7001AB8ED /* AbdominalResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdominalResume.swift; sourceTree = "<group>"; };
+		5497B6832C02C35F001AB8ED /* RussianResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianResume.swift; sourceTree = "<group>"; };
+		5497B6852C02D420001AB8ED /* TextResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextResume.swift; sourceTree = "<group>"; };
+		5497B6872C02D561001AB8ED /* MountainResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainResume.swift; sourceTree = "<group>"; };
+		5497B6892C02D5E3001AB8ED /* HeelResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeelResume.swift; sourceTree = "<group>"; };
+		5497B68B2C02D68A001AB8ED /* LegResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegResume.swift; sourceTree = "<group>"; };
+		5497B68D2C02D6B3001AB8ED /* PlankResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlankResume.swift; sourceTree = "<group>"; };
+		5497B68F2C02D6DB001AB8ED /* CobraResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraResume.swift; sourceTree = "<group>"; };
+		5497B6912C02D6FA001AB8ED /* SpineLResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineLResume.swift; sourceTree = "<group>"; };
+		5497B6932C02D723001AB8ED /* SpineRResume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineRResume.swift; sourceTree = "<group>"; };
+		5497B6952C02E014001AB8ED /* finishSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = finishSound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5484DC932C001F8B0016242C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5484DC8D2C001F8B0016242C = {
+			isa = PBXGroup;
+			children = (
+				5484DC982C001F8B0016242C /* GetPack */,
+				5484DC972C001F8B0016242C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5484DC972C001F8B0016242C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5484DC962C001F8B0016242C /* GetPack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5484DC982C001F8B0016242C /* GetPack */ = {
+			isa = PBXGroup;
+			children = (
+				5484DD1F2C0025FB0016242C /* File */,
+				5484DCA82C00200A0016242C /* View */,
+				5484DD1A2C00245E0016242C /* Component */,
+				5484DD292C0072C20016242C /* Resume */,
+				5484DD342C008F990016242C /* Resting */,
+				5484DD222C0027D50016242C /* Workout */,
+				5484DC9D2C001F8C0016242C /* Assets.xcassets */,
+				5484DC9F2C001F8C0016242C /* GetPack.entitlements */,
+				5484DCFC2C0020F50016242C /* Video Asset */,
+				5484DCCE2C0020E30016242C /* Sound Asset */,
+				5484DCA02C001F8C0016242C /* Preview Content */,
+			);
+			path = GetPack;
+			sourceTree = "<group>";
+		};
+		5484DCA02C001F8C0016242C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5484DD352C0090F90016242C /* TestingView.swift */,
+				5484DCA12C001F8C0016242C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5484DCA82C00200A0016242C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5484DC992C001F8B0016242C /* GetPackApp.swift */,
+				5484DC9B2C001F8B0016242C /* SplashScreen.swift */,
+				5484DCA92C0020820016242C /* WorkoutList.swift */,
+				5484DD1D2C00256D0016242C /* DescriptionView.swift */,
+				5497B6752C021975001AB8ED /* Finish.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5484DCCE2C0020E30016242C /* Sound Asset */ = {
+			isa = PBXGroup;
+			children = (
+				5497B6952C02E014001AB8ED /* finishSound.mp3 */,
+				5484DD372C0092C50016242C /* Timer.m4a */,
+				5484DCAB2C0020E30016242C /* Abdominal 2.m4a */,
+				5484DCAC2C0020E30016242C /* Abdominal Crunches.m4a */,
+				5484DCAD2C0020E30016242C /* Bell.wav */,
+				5484DCAE2C0020E30016242C /* Cobra stretch.m4a */,
+				5484DCAF2C0020E30016242C /* Finish.m4a */,
+				5484DCB02C0020E30016242C /* Heel Touch.m4a */,
+				5484DCB12C0020E30016242C /* Hell Touch 2.m4a */,
+				5484DCB22C0020E30016242C /* Jumping Jacks play 2.m4a */,
+				5484DCB32C0020E30016242C /* Leg Raises 2.m4a */,
+				5484DCB42C0020E30016242C /* Leg Raises.m4a */,
+				5484DCB52C0020E30016242C /* Mountain 2.m4a */,
+				5484DCB62C0020E30016242C /* Mountain Climber.m4a */,
+				5484DCB72C0020E30016242C /* Plank 2.m4a */,
+				5484DCB82C0020E30016242C /* Plank.m4a */,
+				5484DCB92C0020E30016242C /* Ready Jumping Jacks 2.m4a */,
+				5484DCBA2C0020E30016242C /* Rest Abdominal 2.m4a */,
+				5484DCBB2C0020E30016242C /* Rest Abdominal Crunches.m4a */,
+				5484DCBC2C0020E30016242C /* Rest Cobra.m4a */,
+				5484DCBD2C0020E30016242C /* Rest Heel 2.m4a */,
+				5484DCBE2C0020E30016242C /* Rest Heel Touch.m4a */,
+				5484DCBF2C0020E30016242C /* Rest Leg 2.m4a */,
+				5484DCC02C0020E30016242C /* Rest Leg Raises.m4a */,
+				5484DCC12C0020E30016242C /* Rest Mountain 2.m4a */,
+				5484DCC22C0020E30016242C /* Rest Mountain Climber.m4a */,
+				5484DCC32C0020E30016242C /* Rest Plank 2.m4a */,
+				5484DCC42C0020E30016242C /* Rest Plank.m4a */,
+				5484DCC52C0020E30016242C /* Rest Russian 2.m4a */,
+				5484DCC62C0020E30016242C /* Rest Russian Twist.m4a */,
+				5484DCC72C0020E30016242C /* Rest Spine Left.m4a */,
+				5484DCC82C0020E30016242C /* Rest Spine Right.m4a */,
+				5484DCC92C0020E30016242C /* Russian 2.m4a */,
+				5484DCCA2C0020E30016242C /* Russian Twist.m4a */,
+				5484DCCB2C0020E30016242C /* Spine Left.m4a */,
+				5484DCCC2C0020E30016242C /* Spine Right.m4a */,
+				5484DCCD2C0020E30016242C /* Splash Intro 2.m4a */,
+			);
+			path = "Sound Asset";
+			sourceTree = "<group>";
+		};
+		5484DCFC2C0020F50016242C /* Video Asset */ = {
+			isa = PBXGroup;
+			children = (
+				5484DCF22C0020F50016242C /* Abdominal Crunch Video.mov */,
+				5484DCF42C0020F50016242C /* Cobra Video.mov */,
+				5497B63D2C017BB7001AB8ED /* Heel Touch Video.mov */,
+				5497B6412C018114001AB8ED /* Climbing Mountain Video.mov */,
+				5497B63B2C0178DE001AB8ED /* Russian Twist Video.mov */,
+				5484DCF62C0020F50016242C /* Jumping Jack Video.mov */,
+				5484DCF72C0020F50016242C /* Leg Raises Video.mov */,
+				5484DCF82C0020F50016242C /* Plank Video.mov */,
+				5484DCFA2C0020F50016242C /* Spine L Video.mov */,
+				5484DCFB2C0020F50016242C /* Spine R Video.mov */,
+			);
+			path = "Video Asset";
+			sourceTree = "<group>";
+		};
+		5484DD1A2C00245E0016242C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5484DD1B2C00249F0016242C /* CardList.swift */,
+				5484DD272C002DCD0016242C /* CardOtot.swift */,
+				5484DD2A2C007B840016242C /* ResumeButton.swift */,
+				5497B6392C015D27001AB8ED /* RestartButton.swift */,
+				5497B6492C01D1FB001AB8ED /* SkipButton.swift */,
+				5497B64B2C01D265001AB8ED /* CloseButtonRest.swift */,
+				5497B64D2C01D2E3001AB8ED /* CloseButtonWO.swift */,
+				5497B6772C0225B0001AB8ED /* FinishButton.swift */,
+				5497B6792C0225FB001AB8ED /* PreviousButton.swift */,
+				5497B67B2C022757001AB8ED /* NextButton.swift */,
+				5497B67F2C022B7F001AB8ED /* AddButton.swift */,
+				5497B6852C02D420001AB8ED /* TextResume.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5484DD1F2C0025FB0016242C /* File */ = {
+			isa = PBXGroup;
+			children = (
+				5484DD202C0026260016242C /* CustomVideoPlayerView.swift */,
+				5484DD2C2C007CC90016242C /* WorkoutFile.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		5484DD222C0027D50016242C /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				5484DD232C0028010016242C /* PrepareWO.swift */,
+				5484DD252C0028550016242C /* Jumping1.swift */,
+				5497B6452C01BFD4001AB8ED /* Abdominal1.swift */,
+				5497B64F2C01DB4E001AB8ED /* Russian1.swift */,
+				5497B6552C01E1CF001AB8ED /* MountainClimb.swift */,
+				5497B65D2C01F3C8001AB8ED /* HeelT1.swift */,
+				5497B6592C01F15A001AB8ED /* LegRaises.swift */,
+				5497B6632C01FA14001AB8ED /* Plank1.swift */,
+				5497B6672C0210AB001AB8ED /* CobraStretch.swift */,
+				5497B66D2C021250001AB8ED /* SpineLumbarL.swift */,
+				5497B6712C021274001AB8ED /* SpineLumbarR.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		5484DD292C0072C20016242C /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				5484DD2E2C0083DC0016242C /* JumpingResume.swift */,
+				5497B6812C02B8E7001AB8ED /* AbdominalResume.swift */,
+				5497B6832C02C35F001AB8ED /* RussianResume.swift */,
+				5497B6872C02D561001AB8ED /* MountainResume.swift */,
+				5497B6892C02D5E3001AB8ED /* HeelResume.swift */,
+				5497B68B2C02D68A001AB8ED /* LegResume.swift */,
+				5497B68D2C02D6B3001AB8ED /* PlankResume.swift */,
+				5497B68F2C02D6DB001AB8ED /* CobraResume.swift */,
+				5497B6912C02D6FA001AB8ED /* SpineLResume.swift */,
+				5497B6932C02D723001AB8ED /* SpineRResume.swift */,
+			);
+			path = Resume;
+			sourceTree = "<group>";
+		};
+		5484DD342C008F990016242C /* Resting */ = {
+			isa = PBXGroup;
+			children = (
+				5484DD322C008F8D0016242C /* RestAbdominal.swift */,
+				5497B6472C01C5AF001AB8ED /* RestRussian.swift */,
+				5497B6512C01DD0F001AB8ED /* RestMountain.swift */,
+				5497B6572C01EF20001AB8ED /* RestHeel.swift */,
+				5497B65F2C01F775001AB8ED /* RestLeg.swift */,
+				5497B6612C01F99B001AB8ED /* RestPlank.swift */,
+				5497B6652C020CD5001AB8ED /* RestCobra.swift */,
+				5497B66B2C021232001AB8ED /* RestSpineL.swift */,
+				5497B66F2C021265001AB8ED /* RestSpineR.swift */,
+			);
+			path = Resting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5484DC952C001F8B0016242C /* GetPack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5484DCA52C001F8C0016242C /* Build configuration list for PBXNativeTarget "GetPack" */;
+			buildPhases = (
+				5484DC922C001F8B0016242C /* Sources */,
+				5484DC932C001F8B0016242C /* Frameworks */,
+				5484DC942C001F8B0016242C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetPack;
+			productName = GetPack;
+			productReference = 5484DC962C001F8B0016242C /* GetPack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5484DC8E2C001F8B0016242C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5484DC952C001F8B0016242C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5484DC912C001F8B0016242C /* Build configuration list for PBXProject "GetPack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5484DC8D2C001F8B0016242C;
+			productRefGroup = 5484DC972C001F8B0016242C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5484DC952C001F8B0016242C /* GetPack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5484DC942C001F8B0016242C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5484DCE42C0020E40016242C /* Rest Leg Raises.m4a in Resources */,
+				5484DCDF2C0020E40016242C /* Rest Abdominal Crunches.m4a in Resources */,
+				5484DCD02C0020E40016242C /* Abdominal Crunches.m4a in Resources */,
+				5484DCFD2C0020F50016242C /* Abdominal Crunch Video.mov in Resources */,
+				5484DCDA2C0020E40016242C /* Mountain Climber.m4a in Resources */,
+				5484DCE72C0020E40016242C /* Rest Plank 2.m4a in Resources */,
+				5484DD052C0020F50016242C /* Spine L Video.mov in Resources */,
+				5484DCE02C0020E40016242C /* Rest Cobra.m4a in Resources */,
+				5484DCE82C0020E40016242C /* Rest Plank.m4a in Resources */,
+				5484DCD22C0020E40016242C /* Cobra stretch.m4a in Resources */,
+				5497B6962C02E014001AB8ED /* finishSound.mp3 in Resources */,
+				5484DCE32C0020E40016242C /* Rest Leg 2.m4a in Resources */,
+				5484DCD62C0020E40016242C /* Jumping Jacks play 2.m4a in Resources */,
+				5484DCD12C0020E40016242C /* Bell.wav in Resources */,
+				5484DCEE2C0020E40016242C /* Russian Twist.m4a in Resources */,
+				5484DCD72C0020E40016242C /* Leg Raises 2.m4a in Resources */,
+				5484DCD32C0020E40016242C /* Finish.m4a in Resources */,
+				5484DCE52C0020E40016242C /* Rest Mountain 2.m4a in Resources */,
+				5484DCE92C0020E40016242C /* Rest Russian 2.m4a in Resources */,
+				5484DCF12C0020E40016242C /* Splash Intro 2.m4a in Resources */,
+				5484DCA22C001F8C0016242C /* Preview Assets.xcassets in Resources */,
+				5484DCE22C0020E40016242C /* Rest Heel Touch.m4a in Resources */,
+				5484DCED2C0020E40016242C /* Russian 2.m4a in Resources */,
+				5484DCEB2C0020E40016242C /* Rest Spine Left.m4a in Resources */,
+				5484DD032C0020F50016242C /* Plank Video.mov in Resources */,
+				5484DD012C0020F50016242C /* Jumping Jack Video.mov in Resources */,
+				5484DCD92C0020E40016242C /* Mountain 2.m4a in Resources */,
+				5484DCDD2C0020E40016242C /* Ready Jumping Jacks 2.m4a in Resources */,
+				5484DC9E2C001F8C0016242C /* Assets.xcassets in Resources */,
+				5484DCDE2C0020E40016242C /* Rest Abdominal 2.m4a in Resources */,
+				5484DCE62C0020E40016242C /* Rest Mountain Climber.m4a in Resources */,
+				5484DCEA2C0020E40016242C /* Rest Russian Twist.m4a in Resources */,
+				5484DCD52C0020E40016242C /* Hell Touch 2.m4a in Resources */,
+				5484DCD82C0020E40016242C /* Leg Raises.m4a in Resources */,
+				5484DCE12C0020E40016242C /* Rest Heel 2.m4a in Resources */,
+				5497B6422C018114001AB8ED /* Climbing Mountain Video.mov in Resources */,
+				5484DCCF2C0020E40016242C /* Abdominal 2.m4a in Resources */,
+				5484DCDB2C0020E40016242C /* Plank 2.m4a in Resources */,
+				5484DCD42C0020E40016242C /* Heel Touch.m4a in Resources */,
+				5484DCF02C0020E40016242C /* Spine Right.m4a in Resources */,
+				5484DCDC2C0020E40016242C /* Plank.m4a in Resources */,
+				5484DD382C0092C60016242C /* Timer.m4a in Resources */,
+				5484DCFF2C0020F50016242C /* Cobra Video.mov in Resources */,
+				5484DCEC2C0020E40016242C /* Rest Spine Right.m4a in Resources */,
+				5497B63C2C0178DE001AB8ED /* Russian Twist Video.mov in Resources */,
+				5497B63E2C017BB7001AB8ED /* Heel Touch Video.mov in Resources */,
+				5484DD062C0020F50016242C /* Spine R Video.mov in Resources */,
+				5484DD022C0020F50016242C /* Leg Raises Video.mov in Resources */,
+				5484DCEF2C0020E40016242C /* Spine Left.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5484DC922C001F8B0016242C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5497B67C2C022757001AB8ED /* NextButton.swift in Sources */,
+				5497B6642C01FA14001AB8ED /* Plank1.swift in Sources */,
+				5497B68A2C02D5E4001AB8ED /* HeelResume.swift in Sources */,
+				5484DD2B2C007B840016242C /* ResumeButton.swift in Sources */,
+				5497B6682C0210AB001AB8ED /* CobraStretch.swift in Sources */,
+				5497B6842C02C35F001AB8ED /* RussianResume.swift in Sources */,
+				5497B63A2C015D27001AB8ED /* RestartButton.swift in Sources */,
+				5484DCAA2C0020820016242C /* WorkoutList.swift in Sources */,
+				5497B6722C021274001AB8ED /* SpineLumbarR.swift in Sources */,
+				5497B6462C01BFD4001AB8ED /* Abdominal1.swift in Sources */,
+				5484DC9C2C001F8B0016242C /* SplashScreen.swift in Sources */,
+				5497B68E2C02D6B3001AB8ED /* PlankResume.swift in Sources */,
+				5497B6862C02D420001AB8ED /* TextResume.swift in Sources */,
+				5484DD282C002DCD0016242C /* CardOtot.swift in Sources */,
+				5497B6562C01E1CF001AB8ED /* MountainClimb.swift in Sources */,
+				5497B64E2C01D2E3001AB8ED /* CloseButtonWO.swift in Sources */,
+				5484DC9A2C001F8B0016242C /* GetPackApp.swift in Sources */,
+				5484DD2D2C007CC90016242C /* WorkoutFile.swift in Sources */,
+				5497B68C2C02D68A001AB8ED /* LegResume.swift in Sources */,
+				5497B65A2C01F15A001AB8ED /* LegRaises.swift in Sources */,
+				5497B6902C02D6DB001AB8ED /* CobraResume.swift in Sources */,
+				5484DD1C2C00249F0016242C /* CardList.swift in Sources */,
+				5497B6602C01F775001AB8ED /* RestLeg.swift in Sources */,
+				5497B67A2C0225FB001AB8ED /* PreviousButton.swift in Sources */,
+				5484DD262C0028550016242C /* Jumping1.swift in Sources */,
+				5497B65E2C01F3C8001AB8ED /* HeelT1.swift in Sources */,
+				5497B66E2C021250001AB8ED /* SpineLumbarL.swift in Sources */,
+				5497B6502C01DB4E001AB8ED /* Russian1.swift in Sources */,
+				5497B64C2C01D265001AB8ED /* CloseButtonRest.swift in Sources */,
+				5497B6802C022B7F001AB8ED /* AddButton.swift in Sources */,
+				5484DD212C0026260016242C /* CustomVideoPlayerView.swift in Sources */,
+				5497B6822C02B8E7001AB8ED /* AbdominalResume.swift in Sources */,
+				5497B6782C0225B0001AB8ED /* FinishButton.swift in Sources */,
+				5497B66C2C021232001AB8ED /* RestSpineL.swift in Sources */,
+				5484DD332C008F8D0016242C /* RestAbdominal.swift in Sources */,
+				5497B6882C02D561001AB8ED /* MountainResume.swift in Sources */,
+				5484DD2F2C0083DC0016242C /* JumpingResume.swift in Sources */,
+				5497B6942C02D723001AB8ED /* SpineRResume.swift in Sources */,
+				5497B6522C01DD0F001AB8ED /* RestMountain.swift in Sources */,
+				5497B6482C01C5AF001AB8ED /* RestRussian.swift in Sources */,
+				5497B6622C01F99B001AB8ED /* RestPlank.swift in Sources */,
+				5484DD1E2C00256D0016242C /* DescriptionView.swift in Sources */,
+				5497B6662C020CD5001AB8ED /* RestCobra.swift in Sources */,
+				5484DD242C0028010016242C /* PrepareWO.swift in Sources */,
+				5497B6702C021265001AB8ED /* RestSpineR.swift in Sources */,
+				5497B6762C021975001AB8ED /* Finish.swift in Sources */,
+				5497B6582C01EF20001AB8ED /* RestHeel.swift in Sources */,
+				5497B64A2C01D1FB001AB8ED /* SkipButton.swift in Sources */,
+				5497B6922C02D6FA001AB8ED /* SpineLResume.swift in Sources */,
+				5484DD362C0090F90016242C /* TestingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5484DCA32C001F8C0016242C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5484DCA42C001F8C0016242C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5484DCA62C001F8C0016242C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GetPack/GetPack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetPack/Preview Content\"";
+				DEVELOPMENT_TEAM = WH7RXD7H63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibnu.GetPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5484DCA72C001F8C0016242C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GetPack/GetPack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetPack/Preview Content\"";
+				DEVELOPMENT_TEAM = WH7RXD7H63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibnu.GetPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5484DC912C001F8B0016242C /* Build configuration list for PBXProject "GetPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5484DCA32C001F8C0016242C /* Debug */,
+				5484DCA42C001F8C0016242C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5484DCA52C001F8C0016242C /* Build configuration list for PBXNativeTarget "GetPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5484DCA62C001F8C0016242C /* Debug */,
+				5484DCA72C001F8C0016242C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5484DC8E2C001F8B0016242C /* Project object */;
+}
