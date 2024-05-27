@@ -15,6 +15,7 @@ struct Russian1: View {
     @State private var audioPlayer: AVAudioPlayer?
     @State private var timerSoundPlayer: AVAudioPlayer?
     @State private var bellSoundPlayer: AVAudioPlayer?
+    
 
     var body: some View {
         NavigationStack {
@@ -42,11 +43,11 @@ struct Russian1: View {
                     
                     Text("RUSSIAN TWIST")
                         .font(.largeTitle)
-                        .fontWeight(.medium)
-                        .padding()
+                        .fontWeight(.bold)
+//                        .padding()
                     
                     Text("x 20")
-                        .font(.largeTitle)
+                        .font(.system(size: 60))
                         .fontWeight(.bold)
                         .padding()
                         .foregroundColor(.blueSoft)

@@ -17,6 +17,7 @@ struct Plank1: View {
     @State private var audioPlayer: AVAudioPlayer?
     @State private var timerSoundPlayer: AVAudioPlayer?
     @State private var bellSoundPlayer: AVAudioPlayer?
+    
 
     var body: some View {
         NavigationStack {
@@ -45,8 +46,8 @@ struct Plank1: View {
                     
                     Text("PLANK")
                         .font(.largeTitle)
-                        .fontWeight(.medium)
-                        .padding()
+                        .fontWeight(.bold)
+//                        .padding()
                     
                     TimerView(countdown: $countdown)
                         .padding()

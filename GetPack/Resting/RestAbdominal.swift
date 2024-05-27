@@ -11,6 +11,7 @@ struct RestAbdominal: View {
     @State private var isTimerRunning = true
     @State private var navigate = false
     
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     let abdominalCrunchesSound = AVPlayer(url: Bundle.main.url(forResource: "Rest Abdominal Crunches", withExtension: "m4a")!)
     let timerSound = AVPlayer(url: Bundle.main.url(forResource: "Timer", withExtension: "m4a")!)
@@ -36,7 +37,8 @@ struct RestAbdominal: View {
                             .foregroundColor(.white)
                         
                         Text("\(formatTime(countdown))")
-                            .font(.title)
+                            .font(.system(size: 60))
+                            .fontWeight(.bold)
                             .foregroundColor(.white)
                             .onReceive(timer) { _ in
                                 if self.isTimerRunning {

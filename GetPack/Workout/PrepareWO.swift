@@ -16,6 +16,7 @@ struct PrepareWO: View {
     @State private var navigate: Bool = false
     @State private var audioPlayer: AVAudioPlayer?
     @State private var bellPlayer: AVAudioPlayer?
+    
 
     var videoName: String
     var workoutTitle: String

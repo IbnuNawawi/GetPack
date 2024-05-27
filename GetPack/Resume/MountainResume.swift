@@ -11,6 +11,7 @@ import AVFoundation
 struct MountainResume: View {
     @State private var player: AVAudioPlayer?
     
+    
     var body: some View {
             NavigationStack {
                 GeometryReader { geometry in

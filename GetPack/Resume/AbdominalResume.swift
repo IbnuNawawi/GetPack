@@ -10,6 +10,7 @@ import AVFoundation
 struct AbdominalResume: View {
     @State private var player: AVAudioPlayer?
     
+    
     var body: some View {
         NavigationStack {
             GeometryReader { geometry in

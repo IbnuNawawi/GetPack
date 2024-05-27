@@ -22,7 +22,7 @@ struct SplashScreen: View {
                     Image("IconImage")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 400, height: 400)
+                        .frame(width: 500, height: 500)
 
                     Text("GETPACK")
                         .font(.largeTitle)

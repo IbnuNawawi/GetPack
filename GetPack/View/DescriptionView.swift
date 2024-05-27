@@ -30,7 +30,7 @@ struct DescriptionView: View {
                     
                     // Title
                     Text(nameWO)
-                        .font(.largeTitle)
+                        .font(.system(size: 35))
                         .fontWeight(.bold)
                         .padding(.top, 60)
                         .padding(.bottom, 20)
@@ -38,11 +38,11 @@ struct DescriptionView: View {
                     // First VStack with description
                     VStack(alignment: .leading, spacing: 10) {
                         Text("INSTRUCTION")
-                            .font(.title2)
+                            .font(.system(size: 28))
                             .fontWeight(.semibold)
                             .foregroundStyle(.blueSoft)
                         Text(descriptionWO)
-                            .font(.headline)
+                            .font(.system(size: 22))
                             .fontWeight(.light)
                             .fixedSize(horizontal: false, vertical: true) // Ensure multiline text displays properly
                     }
@@ -51,7 +51,7 @@ struct DescriptionView: View {
                     // Second VStack with description
                     VStack(alignment: .leading, spacing: 10) {
                         Text("FOCUS AREA")
-                            .font(.title2)
+                            .font(.system(size: 28))
                             .fontWeight(.semibold)
                             .foregroundStyle(.blueSoft)
                             .padding(10)

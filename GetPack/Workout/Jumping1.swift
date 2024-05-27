@@ -16,6 +16,7 @@ struct Jumping1View: View {
     @State private var audioPlayer: AVAudioPlayer?
     @State private var timerSoundPlayer: AVAudioPlayer?
     @State private var bellSoundPlayer: AVAudioPlayer?
+    
 
     var body: some View {
         NavigationStack {
@@ -44,8 +45,8 @@ struct Jumping1View: View {
                     
                     Text("JUMPING JACKS")
                         .font(.largeTitle)
-                        .fontWeight(.medium)
-                        .padding()
+                        .fontWeight(.bold)
+//                        .padding()
                     
                     TimerView(countdown: $countdown)
                         .padding()
@@ -66,7 +67,7 @@ struct Jumping1View: View {
                             .background(.blueSoft)
                             .cornerRadius(10)
                     }
-                    .padding(.top, 20)
+                    .padding(.top, 10)
                    
                     HStack {
                         NavigationLink(destination: PrepareWO(videoName: "Jumping Jack Video", workoutTitle: "JUMPING JACK")) {
@@ -190,9 +191,9 @@ struct TimerView: View {
         let timeString = String(format: "%02d:%02d", minutes, seconds)
         
         Text(timeString)
-            .font(.largeTitle)
+            .font(.system(size: 60))
             .fontWeight(.bold)
-            .padding()
+            .padding(.bottom,20)
             .foregroundColor(.blueSoft)
     }
 }

@@ -13,6 +13,7 @@ struct RestSpineL: View {
     @State private var isTimerRunning = true
     @State private var navigate = false
     
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     let restSpineLSound = AVPlayer(url: Bundle.main.url(forResource: "Rest Spine Left", withExtension: "m4a")!)
     let timerSound = AVPlayer(url: Bundle.main.url(forResource: "Timer", withExtension: "m4a")!)

@@ -85,7 +85,7 @@ struct Finish: View {
                             .font(.system(size: 40, weight: .bold))
                             .foregroundColor(.blueSoft)
                         Text("Exercises")
-                            .font(.system(size: 20, weight: .regular))
+                            .font(.system(size: 30, weight: .regular))
                             .foregroundColor(.blueSoft)
                     }
                     .padding(.horizontal, 20)
@@ -95,7 +95,7 @@ struct Finish: View {
                             .font(.system(size: 40, weight: .bold))
                             .foregroundColor(.blueSoft)
                         Text("Duration")
-                            .font(.system(size: 20, weight: .regular))
+                            .font(.system(size: 30, weight: .regular))
                             .foregroundColor(.blueSoft)
                     }
                     .padding(.horizontal, 20)

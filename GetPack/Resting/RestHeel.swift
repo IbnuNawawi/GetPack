@@ -13,6 +13,7 @@ struct RestHeel: View {
     @State private var isTimerRunning = true
     @State private var navigate = false
     
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     let heelTouchSound = AVPlayer(url: Bundle.main.url(forResource: "Rest Heel Touch", withExtension: "m4a")!)
     let timerSound = AVPlayer(url: Bundle.main.url(forResource: "Timer", withExtension: "m4a")!)

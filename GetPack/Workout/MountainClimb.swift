@@ -16,6 +16,7 @@ struct MountainClimb: View {
     @State private var timerSoundPlayer: AVAudioPlayer?
     @State private var bellSoundPlayer: AVAudioPlayer?
     
+    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -41,11 +42,11 @@ struct MountainClimb: View {
                     
                     Text("MOUNTAIN CLIMBER")
                         .font(.largeTitle)
-                        .fontWeight(.medium)
-                        .padding()
+                        .fontWeight(.bold)
+//                        .padding()
                     
                     Text("x 16")
-                        .font(.largeTitle)
+                        .font(.system(size: 60))
                         .fontWeight(.bold)
                         .padding()
                         .foregroundColor(.blueSoft)
